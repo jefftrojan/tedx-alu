@@ -15,8 +15,20 @@
   color: #000;
 }
 
+.hero {
+  text-align: center;
+}
+
+
+.banner {
+  font-size: larger;
+  
+}
+
 .app .footer {
-  position: fixed;
+  position: relative;
+  display: grid;
+  grid-template-columns: auto;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -25,27 +37,20 @@
   color: white;
   text-align: center;
 }
-.app .footer .left-foot {
-  display: flex;
-  flex-direction: column;
-  flex: content;
-  justify-content: left;
-  justify-content: left;
-  text-align: left;
+.footer .left-foot {
+  
   font-family: montserrat, 'sans-serif';
-  font-size: 14px;
+  font-size: 20px;
   font-weight: 700;
+  float:left;
 }
 
-.app .footer .right-foot {
-  display: flex;
-  flex-direction: column;
-  flex: content;
-  justify-content: right;
-  text-align: right;
+.footer .right-foot{
+  
   font-family: montserrat, 'sans-serif';
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 700;
+  float:right;
 }
 
 

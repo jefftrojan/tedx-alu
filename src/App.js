@@ -3,9 +3,18 @@ import './App.css';
 function App() {
   return (
     <div className="app">
+
+
+
+      
+
+
+
       <header className="header">
+
         
-        <p>
+        
+        <p className='banner'>
           TedX ALU, &copy; 2022 <code>What if?</code> 
           <br />
           Coming soon...
@@ -15,20 +24,32 @@ function App() {
       
       </header>
 
-      <div className='footer'>
-      <p className='left-foot'>
 
-      TEDxALURwanda is founded in the spirit of TED’s mission of Ideas Worth Spreading. <br/>The student-led organisation’s goal is to create unique experiences composed of interdisciplinary talks and engaging exchanges for all attendees..
-This independent TEDx Organisation is operated under license from TED.
-      </p>
+      <div className='body'>
 
+          <section className='hero'>
+              <div>
+
+              </div>
+          </section>
+        
+
+        
       </div>
 
-      <p className='right-foot'>
+      <div className='footer'>
+          <div className='left-foot'>
 
-      The student-led organisation’s goal is to create unique experiences composed of interdisciplinary talks and engaging exchanges for all attendees..
-      This independent TEDx Organisation is operated under license from TED.<br/>
-      </p>
+            <p> TEDxALURwanda is founded in the spirit of TED’s mission of Ideas Worth Spreading. </p>
+          </div>
+
+          </div>
+
+          <div className='right-foot'>
+
+              <p>The student-led organisation’s goal is to create unique experiences composed of interdisciplinary talks and engaging exchanges for all attendees..
+                This independent TEDx Organisation is operated under license from TED.</p><br/>
+          </div>
     </div>
   );
 }
