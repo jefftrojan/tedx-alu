@@ -37,19 +37,31 @@ function App() {
         
       </div>
 
-      <div className='footer'>
-          <div className='left-foot'>
+      <footer>
+          <section>
 
             <p> TEDxALURwanda is founded in the spirit of TED’s mission of Ideas Worth Spreading. </p>
-          </div>
+          </section>
 
-          </div>
-
-          <div className='right-foot'>
+          
+             <section>
 
               <p>The student-led organisation’s goal is to create unique experiences composed of interdisciplinary talks and engaging exchanges for all attendees..
                 This independent TEDx Organisation is operated under license from TED.</p><br/>
-          </div>
+
+            </section>
+
+          
+
+          <section className='container'>
+            <div className="events">Events</div>
+            <div className="about">About us</div>
+            <div className="talks">Talks</div>
+            <div className="partners">Our Partners</div>
+          
+          </section>
+          <section className='copyright'>TedX ALU, &copy; 2022</section>
+    </footer>
     </div>
   );
 }
