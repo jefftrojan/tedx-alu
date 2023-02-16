@@ -1,8 +1,48 @@
 import './App.css';
 
 function App() {
+  const d = new Date();
+  let year = d.getFullYear();
+
   return (
     <div className="app">
+
+
+      <div className='nav'>
+        <div className='logo'>TEDx</div>
+        
+         
+            <a href='#events'>Events</a>
+          
+
+          
+            <a href='#talks'>Talks</a>
+          
+
+          
+            <a href='#blog'>Blog</a>
+         
+
+
+         
+            <a href='#about'>About Us</a>
+          
+          
+          <div class="dropdown">
+              <button className='dropbtn'>Get Involved</button>
+              <div class="dropdown-content">
+                <a href="#speak">Apply to speak</a>
+                <a href="#volunteer">Volunteer with us</a>
+                <a href="#contact">Contact Us</a>
+              </div>
+
+            
+
+            
+</div>
+            
+        
+      </div>
 
 
 
@@ -15,7 +55,8 @@ function App() {
         
         
         <p className='banner'>
-          TedX ALU, &copy; 2022 <code>What if?</code> 
+          TedX ALU, &copy; 2022 <br /> 
+          <span>What if?</span> 
           <br />
           Coming soon...
         </p>
@@ -53,15 +94,10 @@ function App() {
 
           
 
-          <section className='container'>
-            <div className="events">Events</div>
-            <div className="about">About us</div>
-            <div className="talks">Talks</div>
-            <div className="contact">Contact</div>
-          
-          </section>
-          <section className='copyright'>TedX ALU, &copy; 2022</section>
+         
     </footer>
+    <section className='copyright'>Copyright &copy; TedX ALU, {year}   </section>
+
     </div>
   );
 }
