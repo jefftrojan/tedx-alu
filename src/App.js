@@ -57,7 +57,7 @@ function App() {
             <div className="events">Events</div>
             <div className="about">About us</div>
             <div className="talks">Talks</div>
-            <div className="partners">Our Partners</div>
+            <div className="contact">Contact</div>
           
           </section>
           <section className='copyright'>TedX ALU, &copy; 2022</section>
