@@ -45,17 +45,11 @@ function App() {
 
 <section className='hero'>
    <main>
-
-    <h1>Speaker 1</h1>
    <Card 
    
    />
    <br />
 
-<h1>Speaker 1</h1>
-   <Card 
-   
-   />
 
    </main>
    

@@ -4,12 +4,9 @@ import  "./Cards.css"
 function Cards() {
     return (
 
-        <div class="box">
-  <span></span>
-  <div class="content">
-    
-  </div>
-</div>
+        <button>
+            What if?
+        </button>
     )
 }
 export default Cards;

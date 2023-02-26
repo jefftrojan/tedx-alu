@@ -101,11 +101,6 @@
   color: #000;
 }
 
-.hero {
-  display: inline-block;
-  padding: 30px;
-  margin-bottom: 50px;
-}
 
 footer {
   background: linear-gradient(315deg, #232748, #9d0d0d);
