@@ -1,4 +1,5 @@
 import './App.css';
+import Card from './Components/Cards/Cards.js';
 
 function App() {
   const d = new Date();
@@ -13,27 +14,14 @@ function App() {
         
          
             <a href='#events'>Events</a>
-            <div class="dropdown">
-              <a href="#get_involved" className='dropbtn'>Get Involved</a>
-              <div class="dropdown-content">
-                <a href="#speak">Apply to speak</a>
-                <a href="#volunteer">Volunteer with us</a>
-                <a href="#contact">Contact Us</a>
-              </div>
-
-            
-            </div>
           
 
           
             <a href='#talks'>Talks</a>
           
-
           
             <a href='#blog'>Blog</a>
          
-
-
          
             <a href='#about'>About Us</a>
           
@@ -53,29 +41,36 @@ function App() {
 
         
         
-        <p className='banner'>
-          TedX ALU, &copy; 2022 <br /> 
-          <span>What if?</span> 
-          <br />
-          Coming soon...
-        </p>
+      <div className='body'>
+
+<section className='hero'>
+   <main>
+
+    <h1>Speaker 1</h1>
+   <Card 
+   
+   />
+   <br />
+
+<h1>Speaker 1</h1>
+   <Card 
+   
+   />
+
+   </main>
+   
+</section>
+
+
+
+</div>
         
           
       
       </header>
 
 
-      <div className='body'>
-
-          <section className='hero'>
-              <div>
-
-              </div>
-          </section>
-        
-
-        
-      </div>
+      
 
       <footer>
           <section>
@@ -88,15 +83,15 @@ function App() {
 
               <p>The student-led organisation’s goal is to create unique experiences composed of interdisciplinary talks and engaging exchanges for all attendees..
                 This independent TEDx Organisation is operated under license from TED.</p><br/>
+            
 
+              <p>Copyright &copy; TedX <a href='https://alueducation.com'> ALU</a>, {year}</p>
             </section>
 
           
 
          
     </footer>
-    <section className='copyright'>Copyright &copy; TedX ALU, {year}   </section>
-
     </div>
   );
 }
