@@ -9,10 +9,20 @@ function App() {
 
 
       <div className='nav'>
-        <div className='logo'>TEDx</div>
+        <div className='logo'><span>TEDxALU</span></div>
         
          
             <a href='#events'>Events</a>
+            <div class="dropdown">
+              <a href="#get_involved" className='dropbtn'>Get Involved</a>
+              <div class="dropdown-content">
+                <a href="#speak">Apply to speak</a>
+                <a href="#volunteer">Volunteer with us</a>
+                <a href="#contact">Contact Us</a>
+              </div>
+
+            
+            </div>
           
 
           
@@ -28,18 +38,7 @@ function App() {
             <a href='#about'>About Us</a>
           
           
-          <div class="dropdown">
-              <button className='dropbtn'>Get Involved</button>
-              <div class="dropdown-content">
-                <a href="#speak">Apply to speak</a>
-                <a href="#volunteer">Volunteer with us</a>
-                <a href="#contact">Contact Us</a>
-              </div>
-
-            
-
-            
-</div>
+          
             
         
       </div>

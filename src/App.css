@@ -17,6 +17,26 @@
 .nav .logo {
   float: left;
 }
+.nav .logo span {
+  font-size: 22px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 600;
+  animation: blur 8s linear infinite;
+  line-height: 20px;
+  transition: all 10.5s;
+  letter-spacing: 0.2em;
+  color: #f62020;
+ }
+ 
+ @keyframes blur {
+  0%, 90% {
+   filter: blur(0);
+  }
+ 
+  50% {
+   filter: blur(10px);
+  }
+ }
 
 .nav a {
   float: right;
@@ -41,6 +61,7 @@
 .dropdown {
   position: relative;
   display: inline-block;
+
 }
 
 .dropdown-content {
@@ -56,7 +77,33 @@
 .dropdown:hover .dropdown-content {
   display: block;
 }
+.dropdown-content a {
 
+
+    display: block;
+
+
+    color: #000000;
+
+
+    padding: 5px;
+
+
+    text-decoration: none;
+
+
+}
+
+.dropdown-content a:hover {
+
+
+  color: #FFFFFF;
+
+
+  background-color: #e13030;
+
+
+}
 
 .header {
   background-color: #fff;
@@ -98,3 +145,22 @@ footer {
   background-color: #343131;
 
 }
+.logo span {
+  font-size: 22px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 600;
+  animation: blur 3s linear infinite;
+  line-height: 20px;
+  transition: all 0.5s;
+  letter-spacing: 0.2em;
+ }
+ 
+ @keyframes blur {
+  0%, 90% {
+   filter: blur(0);
+  }
+ 
+  50% {
+   filter: blur(10px);
+  }
+ }
