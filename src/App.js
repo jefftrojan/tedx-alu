@@ -2,6 +2,8 @@ import './App.css';
 import Card from './Components/Cards/Cards.js';
 
 function App() {
+
+  // Auto Update Date 
   const d = new Date();
   let year = d.getFullYear();
 
@@ -41,10 +43,14 @@ function App() {
 
         
         
-      <div className='body'>
+      <div className='body' id='talks'>
 
 <section className='hero'>
    <main>
+
+        <button>
+            Sign me up! 
+        </button>
    <Card 
    
    />

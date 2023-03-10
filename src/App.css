@@ -27,6 +27,25 @@
   letter-spacing: 0.2em;
   color: #f62020;
  }
+ button, button:focus {
+  font-size: 17px;
+  padding: 10px 25px;
+  border-radius: 0.7rem;
+  background-image: linear-gradient(rgb(218, 163, 171), rgb(211, 29, 29));
+  border: 2px solid rgb(50, 50, 50);
+  border-bottom: 5px solid rgb(2, 2, 2);
+  box-shadow: 0px 1px 6px 0px rgb(113, 16, 16);
+  transform: translate(0, -3px);
+  transition: 0.2s;
+  transition-timing-function: linear;
+  cursor: pointer;
+}
+
+button:active {
+  transform: translate(0, 0);
+  border-bottom: 2px solid rgb(50, 50, 50);
+}
+
  
  @keyframes blur {
   0%, 90% {
@@ -104,7 +123,7 @@
 
 footer {
   background: linear-gradient(315deg, #232748, #9d0d0d);
-  padding-top: 50px;
+  padding-top: 15px;
   height: 95px;
   padding: 25px 0;
   color: #fff;
